@@ -1,73 +1,59 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# REACT-NestJS Moneykeeper App
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Deploy
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+https://moneykp-server.onrender.com
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+It's a simply budget app for browser and focused on frontend and backend conection.
 
-## Installation
+### Technology Stack🚀:
 
-```bash
-$ npm install
+- NestJS
+- Type Script
+- PostgreSQL
+- Eslint
+- Prettier
+
+## **Installation**
+
+1. Install [Node.js](https://nodejs.org/ru) version 16 or higher
+2. Clone this [repo](https://github.com/AlexPirko/REACT-NEST_Moneykeeper-server) to your computer
+3. Go to folder eCommerce-Application
+4. Install all dependencies using [npm install](https://docs.npmjs.com/cli/v9/commands/npm-install)
+5. Run `npm run start:dev` in command line and get the best experience in your life😉
+
+## Pre-configured Scripts
+
+### **Start develompent mode**
+
+```
+npm run start
 ```
 
-## Running the app
+&nbsp; &nbsp; &nbsp; \*_use this script to run application in development mode_
 
-```bash
-# development
-$ npm run start
+### **Build app**
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+```
+ npm run build
 ```
 
-## Test
+&nbsp; &nbsp; &nbsp; \*_use this script to create application build_
 
-```bash
-# unit tests
-$ npm run test
+### **Check with lint**
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+```
+ npm run lint
 ```
 
-## Support
+&nbsp; &nbsp; &nbsp; \* _use this script to check code with eslint_
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+### **Fix with lint**
 
-## Stay in touch
+```
+ npm run lint:fix
+```
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+&nbsp; &nbsp; &nbsp; \* _use this script to quickly fix eslint errors_
